@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# Environment
+.env
+src/.env
+.env.local
+venv/
+env/
+ENV/
+
+# IDE
+.idea/
+*.swp
+*.swo
+
+# Project specific
+src/qdrant_storage/
+src/projects/
+qdrant_storage/
+projects/
+*.db
+*.sqlite
+
+# OS
+.DS_Store
+Thumbs.db
